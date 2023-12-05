@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat&family=Merriweather:wght@300&family=Poppins:wght@100;300&display=swap');
+
+:root
+{
+
+}
+
+/*Font-family*/
+/*
+font-family: 'Anton', sans-serif;
+
+font-family: 'Caveat', cursive;
+
+font-family: 'Merriweather', serif;
+
+font-family: 'Poppins', sans-serif;
+*/
+/*END*/
+
+.perso-navbar
+{
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
