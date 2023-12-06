@@ -2,6 +2,7 @@
 
 :root
 {
+    --blanc: white;
     --orange: #fb5724;
     --violet: #69269e;
     --bleu : #1d2c49;
@@ -19,6 +20,7 @@ font-family: 'Poppins', sans-serif;
 */
 /*END*/
 
+/*Nav*/
 .perso-navbar
 {
     
@@ -44,10 +46,17 @@ font-family: 'Poppins', sans-serif;
     color: var(--orange);
 }
 
+.navbar-toggler .navbar-toggler-icon
+{
+    color: var(--orange);
+}
+/*END Nav*/
+
 #logo
 {
-    height: 5em;
-    width: 5em;
+    height: 4em;
+    width: 4em;
+    padding: 1%;
 }
 
 #mainTitle
@@ -79,6 +88,7 @@ font-family: 'Poppins', sans-serif;
     height: 1200px;
 }
 
+/*Section Links*/
 .links
 {
     background-color: var(--bleu);
@@ -91,10 +101,28 @@ h1, h2, h3, p
     color: var(--orange);
 }
 
+#titleSectionLinks
+{
+    font-size: 3em;
+}
+
 .mainBorder
 {
     border: 1px solid var(--orange);
     padding: 2%;
     text-align: justify;
 }
+
+.card
+{
+    border-radius: 12px;
+}
+
+.card:hover
+{
+    transform: scale(1.02);
+    transition: transform 330ms ease-in;
+    box-shadow: 8px 8px 12px #fb5724;
+}
+/*END section Links*/
 
