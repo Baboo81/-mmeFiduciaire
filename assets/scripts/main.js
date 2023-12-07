@@ -1,15 +1,10 @@
 "use strict";
 
-//Logo switch color:
-const mainLogo = document.getElementById('logo');
-const linksSection = document.querySelector('links');
+//map:
+//Create map:
+const centroid = [50.71036, 4.36889];
+const map = L.map('mapid').setView(centroid, 16.4);
 
-function colorSwitch () {
-    if (getComputedStyle(linksSection).backgroundColor = "#1d2c49") {
-        mainLogo.style.backgroundColor = "white";
-    } else {
-        mainLogo.style.backgroundColor = "#1d2c49";
-    }
-};
-
-colorSwitch ();
+//Add tiles & marker:
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+L.marker([50.71036, 4.36889]).addTo(map);

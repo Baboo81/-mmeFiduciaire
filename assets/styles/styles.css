@@ -126,3 +126,10 @@ h1, h2, h3, p
 }
 /*END section Links*/
 
+/*Footer*/
+#mapid
+{
+    height: 300px;
+    border-radius: 12px;
+}
+/*END Footer*/
